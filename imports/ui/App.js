@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { withTracker } from 'meteor/react-meteor-data';
+
+import Tasks from '../api/tasks.js';
 
 import Task from './Task.js';
 
